@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">  <!-- POPPINS -->
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Página do Douglas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="avatar" src="img/mentor.jpg" alt="">
+            <div class="profile-bio">
+                <h1 class="profile-bio-name">Página do Douglas<i data-feather="circle"></i></h1>
+                <h2 class="profile-bio-subtitle">Desenvolvedor Full Stack Python</h2>
+                <p class="profile-bio-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem ab laudantium magnam sit. Distinctio sit, ipsa neque ducimus praesentium soluta qui ea quam aspernatur consectetur, explicabo incidunt vel excepturi minima error a asperiores pariatur dolorum amet fugit! Assumenda et, expedita libero laborum earum culpa tenetur reiciendis voluptatibus quos voluptatum.</p>
+            </div>
+        </header>
+        <nav>
+            <ul class="social-links">
+                <li><a href="#"><img src="img/instagram.svg" alt="Logo do Instagram"></a></li>
+                <li><a href="#"><img src="img/linkedin.svg" alt="Logo do Linkedin"></a></li>
+                <li><a href="#"><img src="img/github.svg" alt="Logo do Github"></a></li>
+                <li><a href="#"><img src="img/mail.svg" alt="Logo de Email"></a></li>
+            </ul>
+        </nav>
+        <h2>Acesse os Projetos</h2>
+        <nav>
+            <ul class="projects-list">
+                <li class="projects-list-item"><a href="https://ebac-shoes-pink.vercel.app/" target="_blank">EBAC Shoes</a></li>
+                <li class="projects-list-item"><a href="https://petiscos-salgadinhos.vercel.app/" target="_blank">Petiscos Salgadinhos</a></li>
+                <li class="projects-list-item"><a href="https://ebac-ristorante.vercel.app/" target="_blank">EBAC Ristorante</a></li>
+                <li class="projects-list-item"><a href="https://curso-autocad-civil-3d.vercel.app/" target="_blank">Curso AutoCAD Civil 3D</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <h3>2024 &copy; DOJODUVI - Todos os Direitos reservados</h3>
+        <p>Powered By - Douglas Lazaro Moreira - EBAC</p>
+    </footer>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script> <!-- scripts bootstrap -->
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.min.js"></script> <!-- mascarás JQuery -->
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>  <!-- máscaras JQuery Validação de forms-->
+    <script type="text/javascript" src="js/messages_pt_BR.min.js"></script>  <!-- mensagens JQuery Pt-BR -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        // Fecha o menu após o clique
+        $(".nav-link").on("click", function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+</body>
+</html>
